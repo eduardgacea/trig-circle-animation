@@ -18,13 +18,6 @@ function degToRad(deg) {
   return (Math.PI * deg) / 180;
 }
 
-function getQuadrant(theta) {
-  if (theta >= 0 && theta <= 90) return 1;
-  if (theta > 90 && theta <= 180) return 2;
-  if (theta > 180 && theta <= 270) return 3;
-  if (theta > 270 && theta <= 360) return 4;
-}
-
 function line(x1, y1, x2, y2, strokeWeight, strokeColor) {
   ctx.save();
   ctx.beginPath();
