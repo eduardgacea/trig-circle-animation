@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="index.css" />
-    <script async defer src="index.js"></script>
-  </head>
-  <body>
-    <div id="root">
-      <canvas id="canvas" width="1400" height="900"></canvas>
-      <div id="actions">
-        <div class="action">
-          <label id="theta-label" for="theta"></label>
-          <input id="theta" type="range" min="0" max="360" step="1" value="0" name="theta" />
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <script async defer src="index.js"></script>
+    </head>
+    <body>
+        <div id="root">
+            <canvas id="canvas" width="1400" height="900"></canvas>
+            <div id="actions">
+                <div class="action">
+                    <label id="theta-label" for="theta"></label>
+                    <input id="theta" type="range" min="0" max="360" step="1" value="0" name="theta" />
+                </div>
+                <div class="action">
+                    <label id="pos-vector-label" for="pos-vector">POS VECTOR</label>
+                    <input id="pos-vector" type="checkbox" name="pos-vector" />
+                </div>
+                <div class="action">
+                    <label id="sin-line-label" for="sin-line">SIN LINE</label>
+                    <input id="sin-line" type="checkbox" name="sin-line" />
+                </div>
+                <div class="action">
+                    <label id="cos-line-label" for="cos-line">COS LINE</label>
+                    <input id="cos-line" type="checkbox" name="cos-line" />
+                </div>
+                <div class="action">
+                    <label id="tan-line-label" for="tan-line">TAN LINE</label>
+                    <input id="tan-line" type="checkbox" name="tan-line" />
+                </div>
+                <div class="action">
+                    <label id="ctan-line-label" for="ctan-line">CTAN LINE</label>
+                    <input id="ctan-line" type="checkbox" name="ctan-line" />
+                </div>
+            </div>
         </div>
-        <div class="action">
-          <label id="pos-vector-label" for="pos-vector">POS VECTOR</label>
-          <input id="pos-vector" type="checkbox" name="pos-vector" />
-        </div>
-        <div class="action">
-          <label id="sin-line-label" for="sin-line">SIN LINE</label>
-          <input id="sin-line" type="checkbox" name="sin-line" />
-        </div>
-        <div class="action">
-          <label id="cos-line-label" for="cos-line">COS LINE</label>
-          <input id="cos-line" type="checkbox" name="cos-line" />
-        </div>
-        <div class="action">
-          <label id="tan-line-label" for="tan-line">TAN LINE</label>
-          <input id="tan-line" type="checkbox" name="tan-line" />
-        </div>
-        <div class="action">
-          <label id="ctan-line-label" for="ctan-line">CTAN LINE</label>
-          <input id="ctan-line" type="checkbox" name="ctan-line" />
-        </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
